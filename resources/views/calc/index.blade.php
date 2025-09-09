@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column align-items-center gap-3">
-    <h1>計算アプリ</h1>
+    <h1 class="mt-5">計算アプリ</h1>
     {{-- フォームの中にほしい値を入れる --}}
     <form method="POST" action="/calc">
         <div class="d-flex">
