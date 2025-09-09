@@ -4,12 +4,19 @@ namespace App\Dto;
 
 class CalcDto
 {
+    // 数字1
     private int $num1 = 0;
+    // 数字2
     private int $num2 = 0;
+    // 選択された演算子
     private String $selected = "";
+    // 計算結果
     private String $result = "";
+    // メッセージ(変な計算したとき用)
     private String $msg = "";
+    // 演算子リスト
     private $select = ["+", "-", "×", "÷"];
+    // 計算結果を格納する配列
     private $oldResult = [];
 
 
