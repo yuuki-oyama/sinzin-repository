@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Session;
 
 class CalcController extends Controller
 {
-    // フォーム表示
+    // フォーム表示a
     public function index()
     {
         // 画面を表示する処理を書く
